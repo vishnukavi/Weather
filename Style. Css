@@ -1,0 +1,74 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #4facfe, #00f2fe);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Container Styling */
+.container {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  width: 350px;
+  text-align: center;
+}
+
+/* Heading */
+h1 {
+  color: #007bff;
+}
+
+/* Search Box */
+.search-box {
+  margin-bottom: 1rem;
+}
+
+input[type="text"] {
+  padding: 10px;
+  width: 70%;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+button {
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  margin-left: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Weather Info */
+.weather-info {
+  margin-top: 1rem;
+}
+
+h2 {
+  color: #333;
+}
+
+p {
+  margin: 5px 0;
+  color: #555;
+}
+
+/* Weather Icon */
+img {
+  margin-top: 10px;
+  width: 100px;
+}
